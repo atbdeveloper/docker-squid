@@ -1,5 +1,5 @@
 FROM arm64v8/ubuntu:noble-20240605
-LABEL maintainer="sameer@damagehead.com"
+LABEL maintainer="troconisbaltar@gmail.com"
 
 ENV SQUID_VERSION=3.5.27 \
     SQUID_CACHE_DIR=/var/spool/squid \
