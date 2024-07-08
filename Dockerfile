@@ -1,7 +1,7 @@
 FROM arm64v8/ubuntu:noble-20240605
 LABEL maintainer="troconisbaltar@gmail.com"
 
-ENV SQUID_VERSION=3.5.27 \
+ENV SQUID_VERSION=6.10 \
     SQUID_CACHE_DIR=/var/spool/squid \
     SQUID_LOG_DIR=/var/log/squid \
     SQUID_USER=proxy
