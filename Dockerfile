@@ -1,4 +1,4 @@
-FROM ubuntu:bionic-20190612
+FROM arm64v8/ubuntu:noble-20240605
 LABEL maintainer="sameer@damagehead.com"
 
 ENV SQUID_VERSION=3.5.27 \
