@@ -1,6 +1,6 @@
 services:
   squid:
-    image: arm64v8/ubuntu:noble-20240605
+    image: sameersbn/squid:3.5.27-2
     ports:
       - "3128:3128"
     volumes:
