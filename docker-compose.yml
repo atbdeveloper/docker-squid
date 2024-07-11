@@ -5,4 +5,5 @@ services:
       - "3128:3128"
     volumes:
       - /srv/docker/squid/cache:/var/spool/squid
+      - ./squid.conf:/etc/squid/squid.conf
     restart: always
